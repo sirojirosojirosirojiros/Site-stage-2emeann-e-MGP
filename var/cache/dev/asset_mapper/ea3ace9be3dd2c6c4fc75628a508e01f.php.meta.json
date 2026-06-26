@@ -1,0 +1,1 @@
+{"resources":[{"@type":"Symfony\\Component\\Config\\Resource\\FileResource","resource":"/home/sirojiros/epitech/stage/deuxemeanne/assets/controllers/hello_controller.js"},{"@type":"Symfony\\Component\\Config\\Resource\\FileExistenceResource","resource":"/home/sirojiros/epitech/stage/deuxemeanne/assets/vendor/@hotwired/stimulus/stimulus.index.js","exists":true}]}
