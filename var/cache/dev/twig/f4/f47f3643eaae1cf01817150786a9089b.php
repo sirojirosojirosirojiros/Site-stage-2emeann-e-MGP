@@ -472,6 +472,6 @@ class __TwigTemplate_8bcac5a587f13c26c9e5c9b979c5929b extends Template
         </div>
     {% endfor %}
 {% endblock %}
-", "@Debug/Profiler/dump.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/debug-bundle/Resources/views/Profiler/dump.html.twig");
+", "@Debug/Profiler/dump.html.twig", "/app/vendor/symfony/debug-bundle/Resources/views/Profiler/dump.html.twig");
     }
 }

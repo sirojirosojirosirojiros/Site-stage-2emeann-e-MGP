@@ -181,6 +181,6 @@ class __TwigTemplate_1a43f1798cbb497df17ca50c426130e0 extends Template
 {% block panel %}
     {{ render(controller(\x27web_profiler.controller.router::panelAction\x27, {token: token})) }}
 {% endblock %}
-", "@WebProfiler/Collector/router.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
+", "@WebProfiler/Collector/router.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/router.html.twig");
     }
 }

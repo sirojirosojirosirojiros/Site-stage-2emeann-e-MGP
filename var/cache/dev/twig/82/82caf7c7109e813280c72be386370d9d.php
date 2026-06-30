@@ -58,7 +58,10 @@ class __TwigTemplate_a0555854e5f36d752f7906e7beb7726c extends Template
         // line 5
         yield from $this->unwrap()->yieldBlock('title', $context, $blocks);
         yield "</title>
-        <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>\">
+        <link rel=\"stylesheet\" href=\"";
+        // line 6
+        yield $this->env->getRuntime('Twig\Runtime\EscaperRuntime')->escape($this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("css/app.css"), "html", null, true);
+        yield "\">
         ";
         // line 7
         yield from $this->unwrap()->yieldBlock('stylesheets', $context, $blocks);
@@ -242,7 +245,7 @@ class __TwigTemplate_a0555854e5f36d752f7906e7beb7726c extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  203 => 22,  180 => 11,  169 => 12,  166 => 11,  153 => 10,  142 => 8,  129 => 7,  106 => 5,  93 => 23,  91 => 22,  87 => 20,  79 => 16,  76 => 15,  74 => 14,  71 => 13,  69 => 10,  66 => 9,  64 => 7,  59 => 5,  53 => 1,);
+        return array (  206 => 22,  183 => 11,  172 => 12,  169 => 11,  156 => 10,  145 => 8,  132 => 7,  109 => 5,  96 => 23,  94 => 22,  90 => 20,  82 => 16,  79 => 15,  77 => 14,  74 => 13,  72 => 10,  69 => 9,  67 => 7,  63 => 6,  59 => 5,  53 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -252,7 +255,7 @@ class __TwigTemplate_a0555854e5f36d752f7906e7beb7726c extends Template
     <head>
         <meta charset=\"UTF-8\">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel=\"icon\" href=\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text><text y=%221.3em%22 x=%220.2em%22 font-size=%2276%22 fill=%22%23fff%22>sf</text></svg>\">
+        <link rel=\"stylesheet\" href=\"{{ asset(\x27css/app.css\x27) }}\">
         {% block stylesheets %}
         {% endblock %}
 
@@ -271,6 +274,6 @@ class __TwigTemplate_a0555854e5f36d752f7906e7beb7726c extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "base.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/templates/base.html.twig");
+", "base.html.twig", "/app/templates/base.html.twig");
     }
 }

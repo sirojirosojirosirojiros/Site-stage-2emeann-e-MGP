@@ -1524,6 +1524,6 @@ class __TwigTemplate_e9fb7b6567743a460bf0832476c942c6 extends Template
         <span>{{ route|default(controller) }}</span>
     {%- endif %}
 {% endmacro %}
-", "@WebProfiler/Collector/request.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
+", "@WebProfiler/Collector/request.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/request.html.twig");
     }
 }

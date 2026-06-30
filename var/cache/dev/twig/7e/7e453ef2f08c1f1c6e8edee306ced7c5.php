@@ -186,6 +186,6 @@ class __TwigTemplate_a6ab6ef2bcbb1009bb83f5268d6795cd extends Template
         {%- endfor -%}
     </pre>
 {% endif %}
-", "@Doctrine/Collector/explain.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/doctrine/doctrine-bundle/templates/Collector/explain.html.twig");
+", "@Doctrine/Collector/explain.html.twig", "/app/vendor/doctrine/doctrine-bundle/templates/Collector/explain.html.twig");
     }
 }

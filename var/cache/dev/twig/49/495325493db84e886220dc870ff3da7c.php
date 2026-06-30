@@ -1003,6 +1003,6 @@ class __TwigTemplate_62c02b2d5b7952b3c1dc1d479a97abfd extends Template
         {% endautoescape %}</script>
     </div>
 {% endmacro %}
-", "@WebProfiler/Collector/time.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
+", "@WebProfiler/Collector/time.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/time.html.twig");
     }
 }

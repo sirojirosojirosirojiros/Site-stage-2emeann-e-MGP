@@ -1056,6 +1056,6 @@ $context["call"], "return", [], "any", false, false, false, 313) === false)) {
         </footer>
     </dialog>
 {% endblock %}
-", "@WebProfiler/Collector/workflow.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Collector/workflow.html.twig");
+", "@WebProfiler/Collector/workflow.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/workflow.html.twig");
     }
 }

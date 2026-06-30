@@ -142,6 +142,6 @@ class __TwigTemplate_1096c54d27104ab62046c017ff134904 extends Template
     </tbody>
 </table>
 </div>
-", "@WebProfiler/Profiler/table.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/table.html.twig");
+", "@WebProfiler/Profiler/table.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/table.html.twig");
     }
 }

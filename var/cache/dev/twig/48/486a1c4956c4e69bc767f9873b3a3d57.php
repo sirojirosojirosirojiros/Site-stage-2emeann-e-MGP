@@ -158,6 +158,6 @@ class __TwigTemplate_f6f75de39905b6c48b5571d03551b3a4 extends Template
     {% if link|default(false) %}</a>{% endif %}
         <div class=\"sf-toolbar-info\" id=\"sf-toolbar-info-{{ name }}-{{ token }}\" role=\"dialog\" aria-roledescription=\"details\" aria-label=\"{{ accessible_label }}\" tabindex=\"-1\">{{ text|default(\x27\x27) }}</div>
 </div>
-", "@WebProfiler/Profiler/toolbar_item.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar_item.html.twig");
+", "@WebProfiler/Profiler/toolbar_item.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/toolbar_item.html.twig");
     }
 }

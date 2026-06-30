@@ -187,6 +187,6 @@ class __TwigTemplate_7a6aaf1374a75870517acaa9ee3344fb extends Template
 
     {{ include(\x27@WebProfiler/Profiler/toolbar_item.html.twig\x27, {link: false}) }}
 {% endblock %}
-", "@WebProfiler/Collector/ajax.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
+", "@WebProfiler/Collector/ajax.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/ajax.html.twig");
     }
 }

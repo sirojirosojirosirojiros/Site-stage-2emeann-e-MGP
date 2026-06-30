@@ -505,6 +505,6 @@ class __TwigTemplate_50eb06abfb2504bec38ac56e11182ddd extends Template
     {%- set widget_class = widget_class|default(\x27mr-2\x27) -%}
     {{- parent() -}}
 {%- endblock radio_widget -%}
-", "tailwind_2_layout.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
+", "tailwind_2_layout.html.twig", "/app/vendor/symfony/twig-bridge/Resources/views/Form/tailwind_2_layout.html.twig");
     }
 }

@@ -233,6 +233,6 @@ class __TwigTemplate_6f735954a3ee1e36ca6b48c04ac9dbe5 extends Template
     word-wrap: break-word;
     word-break: break-all;
 }
-", "@WebProfiler/Profiler/open.css.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.css.twig");
+", "@WebProfiler/Profiler/open.css.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.css.twig");
     }
 }

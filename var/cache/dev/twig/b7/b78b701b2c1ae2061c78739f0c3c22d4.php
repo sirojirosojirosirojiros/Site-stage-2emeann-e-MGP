@@ -137,6 +137,6 @@ class __TwigTemplate_f05596476ff2534de1fb82b90711face extends Template
 .exception-message-wrapper .container {
     min-height: unset;
 }
-", "@WebProfiler/Collector/exception.css.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.css.twig");
+", "@WebProfiler/Collector/exception.css.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/exception.css.twig");
     }
 }

@@ -110,6 +110,6 @@ class __TwigTemplate_f5b319028eee5d8ed5680c98b2319a03 extends Template
        </form>
     </div>
 </header>
-", "@WebProfiler/Profiler/header.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/header.html.twig");
+", "@WebProfiler/Profiler/header.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/header.html.twig");
     }
 }

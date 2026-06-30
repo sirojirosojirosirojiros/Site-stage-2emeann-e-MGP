@@ -180,6 +180,6 @@ class __TwigTemplate_546ebd2c66f39a40cf82b28ff8c2d3b5 extends Template
 
     {{ include(\x27@WebProfiler/Profiler/toolbar_item.html.twig\x27, {link: profiler_url, name: \x27time\x27, status: status_color}) }}
 {% endblock %}
-", "@WebProfiler/Collector/memory.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Collector/memory.html.twig");
+", "@WebProfiler/Collector/memory.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/memory.html.twig");
     }
 }

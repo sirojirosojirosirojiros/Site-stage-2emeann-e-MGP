@@ -1943,6 +1943,6 @@ class __TwigTemplate_5956c220d5d0b1a6cb17fcc480477841 extends Template
         </tbody>
     </table>
 {% endmacro %}
-", "@Doctrine/Collector/db.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/doctrine/doctrine-bundle/templates/Collector/db.html.twig");
+", "@Doctrine/Collector/db.html.twig", "/app/vendor/doctrine/doctrine-bundle/templates/Collector/db.html.twig");
     }
 }

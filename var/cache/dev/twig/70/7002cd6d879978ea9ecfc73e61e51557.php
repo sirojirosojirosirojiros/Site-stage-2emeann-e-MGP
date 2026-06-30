@@ -146,6 +146,6 @@ class __TwigTemplate_3bcd22a96f2cd4afd3a41da2439f8ce2 extends Template
         {% block body %}{% endblock %}
     </body>
 </html>
-", "@Turbo/layouts/frame.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/ux-turbo/templates/layouts/frame.html.twig");
+", "@Turbo/layouts/frame.html.twig", "/app/vendor/symfony/ux-turbo/templates/layouts/frame.html.twig");
     }
 }

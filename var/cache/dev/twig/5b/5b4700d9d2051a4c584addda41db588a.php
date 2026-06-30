@@ -339,6 +339,6 @@ class __TwigTemplate_23dac09f4968ec4e07acac781c22c46d extends Template
         {% block body \x27\x27 %}
     </body>
 </html>
-", "@WebProfiler/Profiler/base.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base.html.twig");
+", "@WebProfiler/Profiler/base.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/base.html.twig");
     }
 }

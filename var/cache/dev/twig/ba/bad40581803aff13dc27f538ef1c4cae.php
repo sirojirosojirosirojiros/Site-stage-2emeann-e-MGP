@@ -2233,6 +2233,6 @@ class __TwigTemplate_a62f4893b6f8ce7c966af15f831d06e1 extends Template
         </tbody>
     </table>
 {% endmacro %}
-", "@WebProfiler/Collector/form.html.twig", "/home/sirojiros/epitech/stage/deuxemeanne/vendor/symfony/web-profiler-bundle/Resources/views/Collector/form.html.twig");
+", "@WebProfiler/Collector/form.html.twig", "/app/vendor/symfony/web-profiler-bundle/Resources/views/Collector/form.html.twig");
     }
 }
