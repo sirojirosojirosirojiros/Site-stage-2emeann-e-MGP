@@ -110,9 +110,19 @@ cd Site-stage-2emeann-e-MGP
 
 ---
 
-### 3. Démarrer Docker
+### 3. Vérifier Docker
 
-S'assurer que Docker Desktop ou le service Docker est démarré sur la machine.
+S'assurer que Docker Desktop ou le service Docker est démarré sur la machine avec:
+
+sudo systemctl status docker
+
+---
+
+### 3.5. Démarrer Docker
+
+si le service Docker n'est pas démarré:
+
+sudo systemctl start docker
 
 ---
 
