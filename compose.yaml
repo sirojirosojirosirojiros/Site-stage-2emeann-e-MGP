@@ -1,28 +1,44 @@
 services:
-###> doctrine/doctrine-bundle ###
-  database:
-    image: postgres:${POSTGRES_VERSION:-16}-alpine
-    environment:
-      POSTGRES_DB: ${POSTGRES_DB:-app}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-!ChangeMe!}
-      POSTGRES_USER: ${POSTGRES_USER:-app}
-    healthcheck:
-      test: ["CMD", "pg_isready", "-d", "${POSTGRES_DB:-app}", "-U", "${POSTGRES_USER:-app}"]
-      timeout: 5s
-      retries: 5
-      start_period: 60s
-    volumes:
-      - database_data:/var/lib/postgresql/data:rw
 
+  ### DATABASE ###
+  database:
+    image: postgres:16-alpine
+    container_name: symfony_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: app
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: "!ChangeMe!"
+    ports:
+      - "5432:5432"
+    volumes:
+      - database_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d app"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  ### APP (SYMFONY) ###
   app:
     build: .
+    container_name: symfony_app
+    restart: unless-stopped
     ports:
       - "8000:8000"
     volumes:
       - .:/app
-###< doctrine/doctrine-bundle ###
+    depends_on:
+      database:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: "postgresql://app:!ChangeMe!@database:5432/app?serverVersion=16&charset=utf8"
+    command: >
+      sh -c "
+      php bin/console doctrine:database:create --if-not-exists --no-interaction &&
+      php bin/console doctrine:migrations:migrate --no-interaction &&
+      php -S 0.0.0.0:8000 -t public
+      "
 
 volumes:
-###> doctrine/doctrine-bundle ###
   database_data:
-###< doctrine/doctrine-bundle ###
